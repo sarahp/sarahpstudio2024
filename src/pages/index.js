@@ -1,8 +1,4 @@
-// import { Link } from "gatsby"
-//
-// import Layout from "../components/layout"
-// import Image from "../components/image"
-// import SEO from "../components/seo"
+import * as React from "react"
 
 import React from 'react';
 import {
@@ -62,17 +58,4 @@ const IndexPage = () => {
               <h3>Site examples</h3>
               <h2>Leadership</h2>
               <h3>Team Lead</h3>
-
-
-            </div>
-
-          </section>
-
-        </div>
-      </div>
-    </HashRouter>
-
-  );
-}
-
-export default IndexPage;
+    </div>
