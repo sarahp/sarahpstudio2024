@@ -15,6 +15,7 @@ import medium from '../images/medium.svg';
 import linkedin from '../images/linkedin.svg';
 import youtube from '../images/youtube.svg';
 
+
 const IndexPage = () => {
   return (
     <HashRouter>
