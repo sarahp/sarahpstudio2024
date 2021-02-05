@@ -4,13 +4,12 @@
 // import Image from "../components/image"
 // import SEO from "../components/seo"
 
-import React, {Component} from 'react';
+import React from 'react';
 import {
-  Route,
   NavLink,
   HashRouter
 } from "react-router-dom";
-import logo from '../images/logo.svg';
+import logo from '../images/logo.png';
 import headshot from '../images/headshot.svg';
 import medium from '../images/medium.svg';
 import linkedin from '../images/linkedin.svg';
@@ -22,7 +21,7 @@ const IndexPage = () => {
       <div className='app'>
         <div className='wrapper container'>
           <header>
-            <div className="wrapper">
+            <div className="wrapper container">
               <div className="header-inner row">
                 <div className="logo-image">
                   <a href="/"><img
@@ -40,7 +39,7 @@ const IndexPage = () => {
                     <ul className="nav flex-column">
                       <li className="nav-item"><NavLink to="/https://www.dropbox.com/s/gj2n35gi6zy3d74/SarahPrasuhnResume-online.pdf?dl=0">Resume</NavLink></li>
                       <li className="nav-item"><a href="/contact">Contact me</a></li>
-                      <li className="nav-item"><NavLink to="/portfolio">Portfolio</NavLink></li>
+                      {/*<li className="nav-item"><NavLink to="/portfolio">Portfolio</NavLink></li>*/}
                     </ul>
                   </div>
                   <div className="tagline">
@@ -56,6 +55,14 @@ const IndexPage = () => {
             </div>
 
             <div className="frontpage-portfolio">
+              <h2>Programming</h2>
+              <p>My love of programming started with learning FrontEnd development for popular CMS. I've since
+                built sites for major national brands. Created membership databases, basic retail sites, and beyond.
+                Recently I've been digging into React and using it with the MetAPI to explore alternate ways of viewing the collection online.</p>
+              <h3>Site examples</h3>
+              <h2>Leadership</h2>
+              <h3>Team Lead</h3>
+
 
             </div>
 
