@@ -43,7 +43,7 @@ const IndexPage = () => {
                     </ul>
                   </div>
                   <div className="tagline">
-                    <h3>Turning stories into applications, videos, and more since 2004.</h3>
+                    <h3>Creating the internet since 2007.</h3>
                   </div>
                 </div>
               </div>
