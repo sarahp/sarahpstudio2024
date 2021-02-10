@@ -1,0 +1,60 @@
+
+body {
+  background-color: #ededed;
+}
+
+// Link styles
+a {
+  font-family: Courier;
+  font-size: 24px;
+  color: #0E87E4;
+  text-align: right;
+}
+
+// Header Styles
+img.logo {
+  margin-top: -70px;
+}
+
+header {
+  display: flex;
+}
+
+.header-inner {
+  display: flex;
+  align-items: flex-end;
+  flex-flow: column;
+  margin-left: 200px;
+  justify-content: left;
+
+  .social-links {
+    display: flex;
+    justify-content: right;
+
+    a {
+      display: flex;
+      margin: 5px;
+      align-content: space-evenly;
+      align-items: flex-end;
+  }
+  }
+}
+
+
+
+
+
+.tagline {
+  display: flex;
+  align-items: flex-end;
+  margin-left: -200px;
+  font-family: Courier;
+  font-size: 29px;
+  color: #525252;
+}
+
+//Portfolio Styles
+
+.portfolio-image {
+  max-width: 300px;
+}
