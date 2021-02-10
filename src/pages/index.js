@@ -33,12 +33,14 @@ const IndexPage = () => {
                     <ul className="nav flex-column">
                       <li className="nav-item"><Link to="/https://www.dropbox.com/s/gj2n35gi6zy3d74/SarahPrasuhnResume-online.pdf?dl=0">Resume</Link></li>
                       <li className="nav-item"><a href="/contact">Contact me</a></li>
+                      <li className="nav-item"><Link to="https://catfans.github.io/">#CatFanstheBand</Link></li>
+
                       {/*<li className="nav-item"><NavLink to="/portfolio">Portfolio</NavLink></li>*/}
                     </ul>
                   </div>
               </div>
                   <div className="tagline">
-                    <h3>Living my best life programming, editing, and building stories.</h3>
+                    <h3>Living my best life programming applications and building stories.</h3>
                   </div>
           </header>
 
@@ -49,7 +51,9 @@ const IndexPage = () => {
             <div className="frontpage-portfolio">
               <h3>Reach me LinkedIn. Also, check out #CatFanstheBand (my live coding band)</h3>
               <p>For the last decade, I've been re-imagining data on the web, through front end development work. Before that, I brought stories to life through documentary and film work. Now I am on the search to do my work in both worlds, merging interactive design and development with story-based video work!</p>
-              <h2>Programming</h2>
+
+              <div className="fe-header"> <h2>Programming</h2></div>
+
               <p>My love of programming started with learning FrontEnd development for popular CMS. I've since
                 built sites for major national brands. Created membership databases, basic retail sites, and beyond.
                 Recently I've been digging into React and using it with the MetAPI to explore alternate ways of viewing the collection online.</p>

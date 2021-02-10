@@ -1,6 +1,12 @@
 
+
+
 body {
   background-color: #ededed;
+}
+
+.app {
+  margin: 10vh 10vw;
 }
 
 // Link styles
@@ -24,8 +30,7 @@ header {
   display: flex;
   align-items: flex-end;
   flex-flow: column;
-  margin-left: 200px;
-  justify-content: left;
+  justify-content: right;
 
   .social-links {
     display: flex;
@@ -40,10 +45,6 @@ header {
   }
 }
 
-
-
-
-
 .tagline {
   display: flex;
   align-items: flex-end;
@@ -54,6 +55,24 @@ header {
 }
 
 //Portfolio Styles
+
+.fe-header {
+  background-image: url("../images/rectangle.png");
+  height: 100px;
+  h2 {
+    display:flex;
+    background: #ffffff;
+    width: 400px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    font-family: Courier-Bold;
+    font-size: 24px;
+    color: #1E8DE4;
+    text-align: center;
+
+  }
+}
 
 .portfolio-image {
   max-width: 300px;
