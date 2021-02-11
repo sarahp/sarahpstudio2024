@@ -30,15 +30,17 @@ const IndexPage = () => {
                     <Link href="https://www.youtube.com/channel/UCUFeOswQrFcLBjYrEc5w58Q" target="_blank" rel="noopener noreferrer"><img className="social-img youtube align-bottom" alt="A youtube logo in blue and gray." src={youtube} /></Link>
                   </div>
                   <div className="navigation">
-                    <ul className="nav flex-column">
-                      <li className="nav-item"><Link to="/https://www.dropbox.com/s/gj2n35gi6zy3d74/SarahPrasuhnResume-online.pdf?dl=0">Resume</Link></li>
-                      <li className="nav-item"><a href="/contact">Contact me</a></li>
+                    <ul className="nav">
+                      <li className="nav-item"><Link to="https://www.dropbox.com/s/lxtb4b2m7pbqqzw/SarahPeonyPrasuhnResume-2.pdf?dl=0.pdf?dl=0">Resume</Link></li>
+                      <li className="nav-item"><a href="mailto: me@sarahp.studio">Contact me</a></li>
+                      <li className="nav-item"><Link to="https://catfans.github.io/">#CatFanstheBand</Link></li>
+
                       {/*<li className="nav-item"><NavLink to="/portfolio">Portfolio</NavLink></li>*/}
                     </ul>
                   </div>
               </div>
                   <div className="tagline">
-                    <h3>Living my best life programming, editing, and building stories.</h3>
+                    <h3>For over a decade, I've been living my best life programming applications and building stories.</h3>
                   </div>
           </header>
 
@@ -47,14 +49,13 @@ const IndexPage = () => {
             </div>
 
             <div className="frontpage-portfolio">
-              <h3>Reach me LinkedIn. Also, check out #CatFanstheBand (my live coding band)</h3>
-              <p>For the last decade, I've been re-imagining data on the web, through front end development work. Before that, I brought stories to life through documentary and film work. Now I am on the search to do my work in both worlds, merging interactive design and development with story-based video work!</p>
-              <h2>Programming</h2>
-              <p>My love of programming started with learning FrontEnd development for popular CMS. I've since
+
+              <div className="fe-header"> <h2>Front End Programming</h2></div>
+
+              <p>My love of programming started with learning FrontEnd development for a popular CMS. I've since
                 built sites for major national brands. Created membership databases, basic retail sites, and beyond.
                 Recently I've been digging into React and using it with the MetAPI to explore alternate ways of viewing the collection online.</p>
-              <h3>Site examples</h3>
-              <h4>WASC Senior</h4>
+              <h3>My favorite Programming Pieces.</h3>
               <p><Link to="https://www.wscuc.org/" target="_blank" rel="noopener noreferrer">WASC</Link>. I completely redesigned and built the FrontEnd of this site. Using Bootstrap and Drupal 7. I am proud to say that it has stood the test of time.</p>
               <Link to="https://www.wscuc.org/" target="_blank" rel="noopener noreferrer"><img className="portfolio-image" src={wasc}></img></Link>
 
@@ -70,17 +71,32 @@ const IndexPage = () => {
 
 
 
-
-
-              <h2>Leadership</h2>
-              <h3>Team Lead</h3>
-
-
             </div>
 
           </section>
 
         </div>
+
+        <footer>
+          <div className="footer-navigation">
+          <div className="navigation">
+              <ul className="nav ">
+                <li className="nav-item"><Link to="https://www.dropbox.com/s/lxtb4b2m7pbqqzw/SarahPeonyPrasuhnResume-2.pdf?dl=0.pdf?dl=0">Resume</Link></li>
+                <li className="nav-item"><a href="mailto: me@sarahp.studio">Contact me</a></li>
+                <li className="nav-item"><Link to="https://catfans.github.io/">#CatFanstheBand</Link></li>
+
+                {/*<li className="nav-item"><NavLink to="/portfolio">Portfolio</NavLink></li>*/}
+              </ul>
+            </div>
+            <div className="social-links">
+              <Link href="https://sarahpstudio.medium.com/" target="_blank" rel="noopener noreferrer"><img className="social-img medium align-bottom" src={medium} alt="A large letter M in blue and gray." /></Link>
+              <Link href="https://www.linkedin.com/in/sarahprasuhn/" target="_blank" rel="noopener noreferrer"><img className="social-img linked-in align-bottom" alt="A Linkedin logo in blue and gray." src={linkedin} /></Link>
+              <Link href="https://www.youtube.com/channel/UCUFeOswQrFcLBjYrEc5w58Q" target="_blank" rel="noopener noreferrer"><img className="social-img youtube align-bottom" alt="A youtube logo in blue and gray." src={youtube} /></Link>
+            </div>
+          </div>
+          <div className="copyright">©SarahP.Studio(Sarah Prasuhn)</div>
+        </footer>
+
       </div>
 
   );
