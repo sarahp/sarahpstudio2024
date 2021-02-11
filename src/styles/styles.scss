@@ -10,24 +10,34 @@ body {
 }
 
 p {
-  font-family: Courier;
+  font-family: Courier, sans-serif;
   font-size: 1.1em;
   color: #525252;
 }
 
-// Link styles
-a {
-  font-family: Courier;
-  font-size: 24px;
-  color: #0E87E4;
-  text-align: right;
+h3 {
+  font-size: 1.6rem;
 }
 
-.social-links {
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
+// Link styles
+a {
+  font-family: Courier, sans-serif;
+  font-size: 1.5rem;
+  color: #0E87E4;
+  text-align: right;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
 }
+
+ul {
+  list-style-type: none;
+}
+
+// See header and footer links in their perspective styles.
+
+
 
 // Header Styles
 img.logo {
@@ -43,6 +53,7 @@ header {
   align-items: flex-end;
   flex-flow: column;
   justify-content: right;
+  z-index: 5;
 
   .social-links {
     display: flex;
@@ -55,6 +66,14 @@ header {
       align-content: space-evenly;
       align-items: flex-end;
   }
+    img {
+      opacity: 0.7;
+      transition: 0.3s;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
   }
 }
 
@@ -62,9 +81,10 @@ header {
   display: flex;
   align-items: flex-end;
   margin-left: -200px;
-  font-family: Courier;
-  font-size: 29px;
+  font-family: Courier, sans-serif;
+  font-size: 1.6rem;
   color: #525252;
+  z-index: 2;
 }
 
 //Portfolio Styles
@@ -80,7 +100,7 @@ header {
     height: 100px;
     justify-content: center;
     align-items: center;
-    font-family: Courier-Bold;
+    font-family: Courier-Bold, sans-serif;
     font-size: 24px;
     color: #1E8DE4;
     text-align: center;
@@ -90,4 +110,44 @@ header {
 
 .portfolio-image {
   max-width: 300px;
+}
+
+//Footer Styles
+footer {
+  margin-top: 50px;
+
+  .nav {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: space-evenly;
+  }
+
+  .social-links {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-top: 25px;
+    a {
+      margin-left: 10px;
+    }
+    img {
+      opacity: 0.7;
+      transition: 0.3s;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+
+  .copyright {
+    font-family: Courier, sans-serif;
+    font-size: 1.13rem;
+    color: #525252;
+    text-align: justify;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
 }
