@@ -9,12 +9,24 @@ body {
   margin: 10vh 10vw;
 }
 
+p {
+  font-family: Courier;
+  font-size: 1.1em;
+  color: #525252;
+}
+
 // Link styles
 a {
   font-family: Courier;
   font-size: 24px;
   color: #0E87E4;
   text-align: right;
+}
+
+.social-links {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 
 // Header Styles
@@ -34,7 +46,8 @@ header {
 
   .social-links {
     display: flex;
-    justify-content: right;
+    align-items: flex-end;
+    justify-content: flex-end;
 
     a {
       display: flex;
@@ -57,8 +70,9 @@ header {
 //Portfolio Styles
 
 .fe-header {
-  background-image: url("../images/rectangle.png");
+  background: url("../images/rectangle.png") no-repeat;
   height: 100px;
+
   h2 {
     display:flex;
     background: #ffffff;
