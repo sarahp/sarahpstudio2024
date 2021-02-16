@@ -43,6 +43,16 @@ ul {
 
 
 // Header Styles
+
+@media only screen and (max-width: 700px) {
+  img.headshot {
+    max-width: 300px;
+  }
+  img.logo {
+    max-width: 350px;
+  }
+
+}
 img.logo {
   margin-top: -70px;
 }
@@ -109,25 +119,32 @@ header {
 }
 //Portfolio Styles
 
-.fe-header {
-  background: url("../images/rectangle.png") no-repeat;
-  height: 100px;
-
-  h2 {
-    display:flex;
-    background: #ffffff;
-    width: 400px;
-    height: 100px;
-    justify-content: center;
-    align-items: center;
-    font-family: Courier-Bold, sans-serif;
-    font-size: 24px;
-    color: #1E8DE4;
-    text-align: center;
-
+@media only screen and (max-width: 700px) {
+  .fe-header {
+    display: none;
   }
 }
 
+@media only screen and (min-width: 700px) {
+  .fe-header {
+    background: url("../images/rectangle.png") no-repeat;
+    height: 100px;
+
+    h2 {
+      display: flex;
+      background: #ffffff;
+      width: 400px;
+      height: 100px;
+      justify-content: center;
+      align-items: center;
+      font-family: Courier-Bold, sans-serif;
+      font-size: 1.4rem;
+      color: #1E8DE4;
+      text-align: center;
+
+    }
+  }
+}
 .portfolio-image {
   max-width: 300px;
 }
@@ -136,7 +153,7 @@ header {
 footer {
   margin-top: 50px;
 
-  @media only screen and (max-width: 985px) {
+  @media only screen and (max-width: 1220px) {
 
     .nav {
       display: flex;
@@ -150,7 +167,7 @@ footer {
     }
   }
 
-  @media only screen and (min-width: 985px) {
+  @media only screen and (min-width: 1220px) {
 
     .nav {
       display: flex;
@@ -190,5 +207,12 @@ footer {
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
+  }
+}
+
+// Resumé text styles
+.resume-text {
+  li {
+    list-style: none;
   }
 }
