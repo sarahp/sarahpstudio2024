@@ -18,7 +18,7 @@ const IndexPage = () => {
         <div className='wrapper'>
           <header>
                 <div className="logo-image">
-                  <Link href="/"><img
+                  <Link href="/"><img className="headshot"
                     alt="Close up of a woman with red curly hair, and dark navy lipstick."
                     src={headshot}/> <br></br>
                     <img className="logo" alt="SarahP.Studio logo" src={logo}/></Link>
@@ -85,8 +85,9 @@ const IndexPage = () => {
           <div className="footer-navigation">
           <div className="navigation">
               <ul className="nav ">
-                <li className="nav-item"><a href="https://sarahpstudio.s3.amazonaws.com/SarahPeonyPrasuhnResume-2.pdf" target="_blank" rel="noopener noreferrer">Resumé</a></li>
-                <li className="nav-item"><a href="https://github.com/sarahp" target="_blank" rel="noopener noreferrer">Github</a></li>
+                <li className="nav-item"><a href="https://sarahpstudio.s3.amazonaws.com/SarahPeonyPrasuhnResume-2.pdf" target="_blank" rel="noopener noreferrer">Resumé PDF</a></li>
+
+                <li className="nav-item"><Link to="/resume" target="_blank" rel="noopener noreferrer">Resumé Text</Link></li>                <li className="nav-item"><a href="https://github.com/sarahp" target="_blank" rel="noopener noreferrer">Github</a></li>
                 <li className="nav-item"><a href="mailto: me@sarahp.studio" target="_blank" rel="noopener noreferrer">Contact me</a></li>
                 <li className="nav-item"><a href="https://catfans.github.io/" target="_blank" rel="noopener noreferrer">#CatFanstheBand</a></li>
 

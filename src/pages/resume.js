@@ -1,4 +1,6 @@
-import React from "react"
+import React from "react";
+import "../styles/styles.scss";
+
 
 const Resume = () => {
   return (
@@ -84,7 +86,7 @@ const Resume = () => {
       <p></p>
 
       <li className="nav-item"><a href="https://sarahpstudio.s3.amazonaws.com/SarahPeonyPrasuhnResume-2.pdf"
-                                  target="_blank" rel="noopener noreferrer">Resume PDF Version</a></li>
+                                  target="_blank" rel="noopener noreferrer">Resumé PDF Version</a></li>
 
     </div>
 
