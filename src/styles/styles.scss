@@ -20,6 +20,9 @@ h3 {
 }
 
 // Link styles
+.nav-item {
+  margin: 5px 0;
+}
 a {
   font-family: Courier, sans-serif;
   font-size: 1.5rem;
@@ -62,7 +65,7 @@ header {
 
     a {
       display: flex;
-      margin: 5px;
+      margin: 20px 30px;
       align-content: space-evenly;
       align-items: flex-end;
   }
@@ -77,16 +80,23 @@ header {
   }
 }
 
+@media only screen and (max-width: 1200px) {
 .tagline {
-  display: flex;
-  align-items: flex-end;
-  margin-left: -200px;
-  font-family: Courier, sans-serif;
-  font-size: 1.6rem;
-  color: #525252;
-  z-index: 2;
+  display: none;
 }
 
+}
+@media only screen and (min-width 1201px) {
+  .tagline {
+    display: flex;
+    align-items: flex-end;
+    margin-left: -200px;
+    font-family: Courier, sans-serif;
+    font-size: 1.6rem;
+    color: #525252;
+    z-index: 2;
+  }
+}
 //Portfolio Styles
 
 .fe-header {
@@ -121,6 +131,10 @@ footer {
     flex-direction: row;
     margin: 10px;
     justify-content: space-evenly;
+
+    .nav-item {
+      margin: 5px 0;
+    }
   }
 
   .social-links {
