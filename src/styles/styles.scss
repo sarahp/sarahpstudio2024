@@ -152,6 +152,8 @@ header {
 //Footer Styles
 footer {
   margin-top: 50px;
+  padding: 20px;
+  background: url("../images/footer_rectangle.png") no-repeat;
 
   @media only screen and (max-width: 1220px) {
 
@@ -212,6 +214,7 @@ footer {
 
 // Resumé text styles
 .resume-text {
+  margin: 100px;
   li {
     list-style: none;
   }
