@@ -52,7 +52,7 @@ const IndexPage = () => {
                 <h3>For over a decade, I've been living my best life programming applications and building stories.</h3>
               </div>
 
-              <div className="fe-header"> <h2>Front End Programming</h2></div>
+              <div className="fe-header"> <h2>FrontEnd Developer</h2></div>
 
               <p>My love of programming started with learning FrontEnd development for a popular CMS. I've since
                 built sites for major national brands. Created membership databases, basic retail sites, and beyond.
