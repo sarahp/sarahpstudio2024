@@ -5,7 +5,6 @@ import logo from '../images/sarahplogo_site.png';
 import headshot from '../images/headshot_3.jpg';
 import medium from '../images/medium.svg';
 import linkedin from '../images/linkedin.svg';
-import youtube from '../images/youtube.svg';
 import wasc from '../images/wasc.png';
 import upenn from '../images/upenn.png';
 import hunter from '../images/hunter.png';
@@ -18,16 +17,16 @@ const IndexPage = () => {
         <div className='wrapper'>
           <header>
                 <div className="logo-image">
-                  <Link href="/"><img className="headshot"
+                  <a href="/"><img className="headshot"
                     alt="Close up of a woman with red curly hair, and dark navy lipstick."
-                    src={headshot}/> <br></br>
-                    <img className="logo" alt="SarahP.Studio logo" src={logo}/></Link>
+                                   src={headshot}/> <br></br>
+                    <img className="logo" alt="SarahP.Studio logo" src={logo}/></a>
                 </div>
               <div className="header-inner">
                   <div className="social-links">
-                    <a href="https://www.linkedin.com/in/sarahprasuhn/" target="_blank" rel="noopener noreferrer"><img className="social-img linked-in align-bottom" alt="A Linkedin logo in blue and gray." src={linkedin} /></a>
+                    <a href="https://www.linkedin.com/in/sarahprasuhn/" target="_blank" rel="noopener noreferrer"><img className="social-img linked-in align-bottom" alt="The Linkedin logo in a custom blue and gray." src={linkedin} /></a>
 
-                    <a href="https://sarahpstudio.medium.com/" target="_blank" rel="noopener noreferrer"><img className="social-img medium align-bottom" src={medium} alt="A large letter M in blue and gray." /></a>
+                    <a href="https://sarahpstudio.medium.com/" target="_blank" rel="noopener noreferrer"><img className="social-img medium align-bottom" src={medium} alt="The Medium.com logo in a custom blue and gray." /></a>
 
                   </div>
                   <div className="navigation">
@@ -35,9 +34,9 @@ const IndexPage = () => {
                       <li className="nav-item"><a href="https://sarahpstudio.s3.amazonaws.com/SarahPeonyPrasuhnResume-2.pdf" target="_blank" rel="noopener noreferrer">Resumé PDF</a></li>
 
                       <li className="nav-item"><Link to="/resume" target="_blank" rel="noopener noreferrer">Resumé Text</Link></li>
-                      <li className="nav-item"><a to="https://github.com/sarahp" target="_blank" rel="noopener noreferrer">Github</a></li>
-                      <li className="nav-item"><a href="mailto: me@sarahp.studio" target="_blank" rel="noopener noreferrer">Contact me</a></li>
-                      <li className="nav-item"><a to="https://catfans.github.io/" target="_blank" rel="noopener noreferrer">#CatFanstheBand</a></li>
+                      <li className="nav-item"><a href="https://github.com/sarahp" target="_blank" rel="noopener noreferrer">Github</a></li>
+                      <li className="nav-item"><a href="mailto: me@sarahp.studio" target="_blank" rel="noopener noreferrer">Email me</a></li>
+                      <li className="nav-item"><a href="https://catfans.github.io/" target="_blank" rel="noopener noreferrer">#CatFanstheBand</a></li>
 
                       {/*<li className="nav-item"><NavLink to="/portfolio">Portfolio</NavLink></li>*/}
                     </ul>
@@ -46,8 +45,7 @@ const IndexPage = () => {
           </header>
 
           <section className="content display-project">
-            <div className='wrapper'>
-            </div>
+            <title>SarahP.studio the Portfolio of Sarah P.</title>
 
             <div className="frontpage-portfolio">
               <div className="tagline">
@@ -60,18 +58,18 @@ const IndexPage = () => {
                 built sites for major national brands. Created membership databases, basic retail sites, and beyond.
                 Recently I've been digging into React and using it with the MetAPI to explore alternate ways of viewing the collection online.</p>
               <h3>My favorite Programming Pieces.</h3>
-              <p><a to="https://www.wscuc.org/" target="_blank" rel="noopener noreferrer">WASC</a>. I completely redesigned and built the FrontEnd of this site. Using Bootstrap and Drupal 7. I am proud to say that it has stood the test of time.</p>
-              <a to="https://www.wscuc.org/" target="_blank" rel="noopener noreferrer"><img className="portfolio-image" src={wasc}></img></a>
+              <p><a href="https://www.wscuc.org/" target="_blank" rel="noopener noreferrer">WASC</a>. I completely redesigned and built the FrontEnd of this site. Using Bootstrap and Drupal 7. I am proud to say that it has stood the test of time.</p>
+              <a href="https://www.wscuc.org/" target="_blank" rel="noopener noreferrer"><img className="portfolio-image" src={wasc} alt="Site example a red and white Non-Profit Organization site."></img></a>
 
 
-              <p><a to="https://www.curf.upenn.edu/" target="_blank" rel="noopener noreferrer">Upenn Curf</a>. For any site with a heavy CMS and many departments on going maintenance and front end fixes are a constant need. Working for <a to="https://alphex.com/" target="_blank" rel="noopener noreferrer">Alephx</a>, I helped with site fixes and front end development support. I love doing a blend of support and redesign work to keep my skills fresh.</p>
-              <a to="https://www.curf.upenn.edu/" target="_blank" rel="noopener noreferrer"><img className="portfolio-image" src={upenn}></img></a>
+              <p><a href="https://www.curf.upenn.edu/" target="_blank" rel="noopener noreferrer">Upenn Curf</a>. For any site with a heavy CMS and many departments on going maintenance and front end fixes are a constant need. Working for <a href="https://alphex.com/" target="_blank" rel="noopener noreferrer">Alephx</a>, I helped with site fixes and front end development support. I love doing a blend of support and redesign work to keep my skills fresh.</p>
+              <a href="https://www.curf.upenn.edu/" target="_blank" rel="noopener noreferrer"><img className="portfolio-image" src={upenn} alt="Site example a blue and white university site."></img></a>
 
-              <p><a to="https://www.hunterboots.com/us/en_us/" target="_blank" rel="noopener noreferrer">Hunter Boots</a>. In a white label collaboration. I managed the tech team, and built the front end. Like WASC this site has stood the test of time. And I'm proud that my work still lives selling my favorite boots.</p>
-              <a to="https://www.hunterboots.com/us/en_us/" target="_blank" rel="noopener noreferrer"><img className="portfolio-image" src={hunter}></img></a>
+              <p><a href="https://www.hunterboots.com/us/en_us/" target="_blank" rel="noopener noreferrer">Hunter Boots</a>. In a white label collaboration. I managed the tech team, and built the front end. Like WASC this site has stood the test of time. And I'm proud that my work still lives selling my favorite boots.</p>
+              <a href="https://www.hunterboots.com/us/en_us/" target="_blank" rel="noopener noreferrer"><img className="portfolio-image" src={hunter} alt="Site example a white and red retail clothing site."></img></a>
 
-              <p><a to="https://www.xepicream.com/" target="_blank" rel="noopener noreferrer">Xepi</a>. Working with Isite, I built the front end of the Xepi site for launch. Making it accessible to the non-developer parts of the team for easy content updates.</p>
-              <a to="https://www.xepicream.com/" target="_blank" rel="noopener noreferrer"><img className="portfolio-image" src={xepi}></img></a>
+              <p><a href="https://www.xepicream.com/" target="_blank" rel="noopener noreferrer">Xepi</a>. Working with Isite, I built the front end of the Xepi site for launch. Making it accessible to the non-developer parts of the team for easy content updates.</p>
+              <a href="https://www.xepicream.com/" target="_blank" rel="noopener noreferrer"><img className="portfolio-image" src={xepi} alt="Site example a purple and white pharmaceutical site."></img></a>
 
 
 
@@ -88,7 +86,7 @@ const IndexPage = () => {
                 <li className="nav-item"><a href="https://sarahpstudio.s3.amazonaws.com/SarahPeonyPrasuhnResume-2.pdf" target="_blank" rel="noopener noreferrer">Resumé PDF</a></li>
 
                 <li className="nav-item"><Link to="/resume" target="_blank" rel="noopener noreferrer">Resumé Text</Link></li>                <li className="nav-item"><a href="https://github.com/sarahp" target="_blank" rel="noopener noreferrer">Github</a></li>
-                <li className="nav-item"><a href="mailto: me@sarahp.studio" target="_blank" rel="noopener noreferrer">Contact me</a></li>
+                <li className="nav-item"><a href="mailto: me@sarahp.studio" target="_blank" rel="noopener noreferrer">Email me</a></li>
                 <li className="nav-item"><a href="https://catfans.github.io/" target="_blank" rel="noopener noreferrer">#CatFanstheBand</a></li>
 
                 {/*<li className="nav-item"><NavLink to="/portfolio">Portfolio</NavLink></li>*/}
