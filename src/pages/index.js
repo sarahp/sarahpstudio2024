@@ -52,12 +52,12 @@ const IndexPage = () => {
                 <h3>For over a decade, I've been living my best life programming applications and building stories.</h3>
               </div>
 
-              <div className="fe-header"> <h2>Front End Programming</h2></div>
+              <div className="fe-header"> <h2>Frontend Developer</h2></div>
 
               <p>My love of programming started with learning FrontEnd development for a popular CMS. I've since
                 built sites for major national brands. Created membership databases, basic retail sites, and beyond.
                 Recently I've been digging into React and using it with the MetAPI to explore alternate ways of viewing the collection online.</p>
-              <h3>My favorite Programming Pieces.</h3>
+              <h3>My favorite Frontend Developer Sites</h3>
               <p><a href="https://www.wscuc.org/" target="_blank" rel="noopener noreferrer">WASC</a>. I completely redesigned and built the FrontEnd of this site. Using Bootstrap and Drupal 7. I am proud to say that it has stood the test of time.</p>
               <a href="https://www.wscuc.org/" target="_blank" rel="noopener noreferrer"><img className="portfolio-image" src={wasc} alt="Site example a red and white Non-Profit Organization site."></img></a>
 
