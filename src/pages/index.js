@@ -62,7 +62,7 @@ const IndexPage = () => {
               <a href="https://www.wscuc.org/" target="_blank" rel="noopener noreferrer"><img className="portfolio-image" src={wasc} alt="Site example a red and white Non-Profit Organization site."></img></a>
 
 
-              <p><a href="https://www.curf.upenn.edu/" target="_blank" rel="noopener noreferrer">Upenn Curf</a>. For any site with a heavy CMS and many departments on going maintenance and front end fixes are a constant need. Working for <a href="https://alphex.com/" target="_blank" rel="noopener noreferrer">Alephx</a>, I helped with site fixes and front end development support. I love doing a blend of support and redesign work to keep my skills fresh.</p>
+              <p><a href="https://www.curf.upenn.edu/" target="_blank" rel="noopener noreferrer">Upenn CURF</a>. For any site with a heavy CMS and many departments on going maintenance and front end fixes are a constant need. Working for <a href="https://alphex.com/" target="_blank" rel="noopener noreferrer">Alephx</a>, I helped with site fixes and front end development support. I love doing a blend of support and redesign work to keep my skills fresh.</p>
               <a href="https://www.curf.upenn.edu/" target="_blank" rel="noopener noreferrer"><img className="portfolio-image" src={upenn} alt="Site example a blue and white university site."></img></a>
 
               <p><a href="https://www.hunterboots.com/us/en_us/" target="_blank" rel="noopener noreferrer">Hunter Boots</a>. In a white label collaboration. I managed the tech team, and built the front end. Like WASC this site has stood the test of time. And I'm proud that my work still lives selling my favorite boots.</p>
