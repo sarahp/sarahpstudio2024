@@ -29,6 +29,21 @@ const Resume = () => {
       <p>Presentations &amp; Public speaking are second nature Being a Communications major has its perks. I'm
         comfortable presenting high concepts in a friendly way, to any size crowd.</p>
       <br></br>
+
+      <p>Team Efforts</p>
+      <p> ======</p>
+      <p>Alephx</p>
+      <p>Joined Alephx to help with their support clients and a large non-profit's site launch. I contributed as Frontend Developer and part-time Project Manager.
+      </p>
+      <p>iSite</p>
+      <p>Joined a small team of project manager, account manager, and backend developer. Helped them reach a hard deadline with the Xepi site.
+      </p>
+      <p>Wardenclyffe</p>
+      <p>Complemented a small team with an account manager and frontend developer. I did Frontend development and also Technical Project Management
+      </p>
+      <br></br>
+
+
       <p> Experience</p>
       <p> ======</p>
       <p> Front End Programmer Shomeya/SarahP.Studio 2008 - Ongoing Portland, Oregon/Philadelphia Boutique web
@@ -59,18 +74,6 @@ const Resume = () => {
       <p>Twitter @sarahpstudio</p>
       <br></br>
 
-      <p> CODING EXAMPLES</p>
-      <p> ======</p>
-      <p> Front End Development favorites UPENN (2017) &mdash; Through Alphex (Duran Goodyear) Support Frontend
-        Developer https://www.curf.upenn.edu/</p>
-
-      <p>WASC Completed the redesign and the recode. https://www.wscuc.org</p>
-
-      <p>Hunter Boots Developed the front end of their online catalog debut. https://www.hunterboots.com/us/en_us/</p>
-
-      <p>Under construction Synesthesia I&rsquo;m also working on using theMetAPI to recreate the experiences of
-        synesthesia that I have when I view works at theMet in NYC.</p>
-      <br></br>
 
       <p> VOLUNTEER </p>
       <p>======</p>
