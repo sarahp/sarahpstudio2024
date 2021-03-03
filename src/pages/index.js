@@ -31,8 +31,10 @@ const IndexPage = () => {
                   </div>
                   <div className="navigation">
                     <ul className="nav">
-                      <li className="nav-item"><a href="https://sarahpstudio.s3.amazonaws.com/SarahPResume.pdf" target="_blank" rel="noopener noreferrer">Resumé PDF</a></li>
 
+                      <li className="nav-item"><a href="https://epic-northcutt-859a69.netlify.app/" target="_blank" rel="noopener noreferrer">The Peony Art Experience</a></li>
+                      <li className="nav-item"><a href="https://github.com/sarahp/peonythemet" target="_blank" rel="noopener noreferrer">The Peony Art Experience Code</a></li>
+                      <li className="nav-item"><a href="https://sarahpstudio.s3.amazonaws.com/SarahPResume.pdf" target="_blank" rel="noopener noreferrer">Resumé PDF</a></li>
                       <li className="nav-item"><Link to="/resume" target="_blank" rel="noopener noreferrer">Resumé Text</Link></li>
                       <li className="nav-item"><a href="https://github.com/sarahp" target="_blank" rel="noopener noreferrer">Github</a></li>
                       <li className="nav-item"><a href="mailto: me@sarahp.studio" target="_blank" rel="noopener noreferrer">Email me</a></li>
@@ -54,9 +56,9 @@ const IndexPage = () => {
 
               <div className="fe-header"> <h2>Frontend Developer</h2></div>
 
-              <p>My love of programming started with learning FrontEnd development for a popular CMS. I've since
+              <p>My love of programming started with learning FrontEnd development. I've since
                 built sites for major national brands. Created membership databases, basic retail sites, and beyond.
-                Recently I've been digging into React and using it with the MetAPI to explore alternate ways of viewing the collection online.</p>
+                Recently I've been digging into React and using it with the MetAPI to explore alternate ways of viewing the collection online. Checkout <a href="https://epic-northcutt-859a69.netlify.app/" target="_blank" rel="noopener noreferrer">The Peony Art Experience</a> to see <a href="https://metmuseum.github.io/" target="_blank" rel="noopener noreferrer">theMetAPI</a> in action.</p>
               <h3>My favorite Frontend Developer Sites</h3>
               <p><a href="https://www.wscuc.org/" target="_blank" rel="noopener noreferrer">WASC</a>. I completely redesigned and built the FrontEnd of this site. Using Bootstrap and Drupal 7. I am proud to say that it has stood the test of time.</p>
               <a href="https://www.wscuc.org/" target="_blank" rel="noopener noreferrer"><img className="portfolio-image" src={wasc} alt="Site example a red and white Non-Profit Organization site."></img></a>
