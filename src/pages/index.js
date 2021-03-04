@@ -58,7 +58,10 @@ const IndexPage = () => {
 
               <p>My love of programming started with learning FrontEnd development. I've since
                 built sites for major national brands. Created membership databases, basic retail sites, and beyond.
-                Recently I've been digging into React and using it with the MetAPI to explore alternate ways of viewing the collection online. Checkout <a href="https://epic-northcutt-859a69.netlify.app/" target="_blank" rel="noopener noreferrer">The Peony Art Experience</a> to see <a href="https://metmuseum.github.io/" target="_blank" rel="noopener noreferrer">theMetAPI</a> in action.</p>
+                Recently I've been digging into React and using it with the MetAPI to explore alternate ways of viewing the collection online. Checkout my code walkthrough below to see <a href="https://epic-northcutt-859a69.netlify.app/" target="_blank" rel="noopener noreferrer">The Peony Art Experience</a> and the <a href="https://metmuseum.github.io/" target="_blank" rel="noopener noreferrer">theMetAPI</a> in action.</p>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/duvf_QdQpkk" frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen></iframe>
               <h3>My favorite Frontend Developer Sites</h3>
               <p><a href="https://www.wscuc.org/" target="_blank" rel="noopener noreferrer">WASC</a>. I completely redesigned and built the FrontEnd of this site. Using Bootstrap and Drupal 7. I am proud to say that it has stood the test of time.</p>
               <a href="https://www.wscuc.org/" target="_blank" rel="noopener noreferrer"><img className="portfolio-image" src={wasc} alt="Site example a red and white Non-Profit Organization site."></img></a>
