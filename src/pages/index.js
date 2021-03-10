@@ -13,7 +13,8 @@ import xepi from "../images/xepi.png"
 
 const IndexPage = () => {
   return (
-    <div className='app'>
+    <>
+      <div className='app'>
       <body>
       <div className='wrapper'>
         <header>
@@ -37,7 +38,7 @@ const IndexPage = () => {
             <div className="navigation">
               <ul className="nav">
 
-                <li className="nav-item"><a href="https://epic-northcutt-859a69.netlify.app/" target="_blank"
+                <li className="nav-item"><a href="https://sarahpeony.com/" target="_blank"
                                             rel="noopener noreferrer">The Peony Art Experience</a></li>
                 <li className="nav-item"><a href="https://github.com/sarahp/peonythemet" target="_blank"
                                             rel="noopener noreferrer">The Peony Art Experience Code</a></li>
@@ -73,7 +74,7 @@ const IndexPage = () => {
                 built sites for major national brands. Created membership databases, basic retail sites, and beyond.
                 Recently I've been digging into React and using it with the MetAPI to explore alternate ways of viewing
                 the collection online. Checkout my code walkthrough below to see <a
-                  href="https://epic-northcutt-859a69.netlify.app/" target="_blank" rel="noopener noreferrer">The Peony
+                  href="https://sarahpeony.com/" target="_blank" rel="noopener noreferrer">The Peony
                   Art Experience</a> and the <a href="https://metmuseum.github.io/" target="_blank"
                                                 rel="noopener noreferrer">theMetAPI</a> in action.</p>
               <div id="video-player">
@@ -148,8 +149,8 @@ const IndexPage = () => {
         <div className="copyright">©SarahP.Studio(Sarah Prasuhn)</div>
       </footer>
       </body>
-
     </div>
+    </>
 
   )
 }
