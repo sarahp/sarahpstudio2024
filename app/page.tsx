@@ -1,7 +1,7 @@
 import "./styles/styles.scss";
 import React from "react";
 import logo from "./images/sarahplogo_site.png";
-import headshot from "./images/headshot_3.png";
+import headshot from "./images/headshot_4.png";
 import medium from "./images/medium.svg";
 import linkedin from "./images/linkedin.svg";
 import lit from "./images/lit.png";
@@ -56,14 +56,14 @@ const IndexPage = () => {
           <section className="content display-project">
             <div className="frontpage-portfolio">
               <div className="tagline">
-                <h1>For over a decade, I&aposve been living my best life programming applications and building stories.</h1>
+                <h1>For over a decade, I've been living my best life programming applications and building stories.</h1>
               </div>
 
               <div className="fe-header"><h2>Frontend Developer</h2></div>
 
-              <p>My love of programming started with learning FrontEnd development. I&aposve since
+              <p>My love of programming started with learning FrontEnd development. I've since
                 built sites for major national brands. Created membership databases, basic retail sites, and beyond.
-                Recently I&aposve been digging into React and using it with the MetAPI to explore alternate ways of viewing
+                Personally, I've been digging into React and using it with the MetAPI to explore alternate ways of viewing
                 the collection online. Checkout my code walkthrough below to see <a
                   href="https://sarahpeony.com/" target="_blank" rel="noopener noreferrer">The Peony
                   Art Experience</a> and the <a href="https://metmuseum.github.io/" target="_blank"
@@ -81,7 +81,7 @@ const IndexPage = () => {
                 alt="img of the frontpage of the Lit website."></img></a>
 
               <p><a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer">React/NextJS</a>.
-                When it comes to my personal projects, React via Next.js has become my go-to framework. Currently, I&aposm immersed in the development of Neurospicy Chores, a project aimed at enhancing productivity, particularly for neurodiverse individuals. Leveraging the power of React and integrating OpenAI and Firebase technologies, I&aposm crafting a user-friendly interface and robust functionality to simplify chore management. Next.js provides the perfect ecosystem for this endeavor, offering server-side rendering, routing, and other features that facilitate rapid development and seamless user experiences. Through this project, I&aposm not only expanding my skills in React development but also exploring innovative ways to tackle real-world challenges through technology. In the meantime, you can explore my past personal projects like the <a href="https://github.com/sarahp/peonythemet">Peony Art Experience</a>, the <a href="https://github.com/sarahp/perpay-dashboard">User Dashboard</a>, and more recently <a href="https://github.com/sarahp/sarahpstudio2024">this site</a> to get a sense of how I work with React and build engaging user interfaces.
+                When it comes to my personal projects, React via Next.js has become my go-to framework. Currently, I'm immersed in the development of Neurospicy Chores, a project aimed at enhancing productivity, particularly for neurodiverse individuals. Leveraging the power of React and integrating OpenAI and Firebase technologies, I'm crafting a user-friendly interface and robust functionality to simplify chore management. Next.js provides the perfect ecosystem for this endeavor, offering server-side rendering, routing, and other features that facilitate rapid development and seamless user experiences. Through this project, I'm not only expanding my skills in React development but also exploring innovative ways to tackle real-world challenges through technology. In the meantime, you can explore my past personal project code like the <a href="https://github.com/sarahp/peonythemet">Peony Art Experience</a>, the <a href="https://github.com/sarahp/perpay-dashboard">User Dashboard</a>, and more recently <a href="https://github.com/sarahp/sarahpstudio2024">this site</a> to get a sense of how I work with React and build engaging user interfaces.
               </p><a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer"><img
                 className="portfolio-image" src={react.src}
                 alt="img of the frontpage of the NextJS website."></img></a>
@@ -96,7 +96,7 @@ const IndexPage = () => {
                 className="portfolio-image" src={upenn.src} alt="Site example a blue and white university site."></img></a>
 
               <p><a href="https://www.hunterboots.com/us/en_us/" target="_blank" rel="noopener noreferrer">Hunter
-                Boots</a>. In a white label collaboration. I managed the tech team, and built the front end. This site has stood the test of time. And I&aposm proud that my work still lives selling my favorite boots.
+                Boots</a>. In a white label collaboration. I managed the tech team, and built the front end. This site has stood the test of time. And I'm proud that my work still lives selling my favorite boots.
               </p>
               <a href="https://www.hunterboots.com/us/en_us/" target="_blank" rel="noopener noreferrer"><img
                 className="portfolio-image" src={hunter.src} alt="Site example a white and red retail clothing site."></img></a>
