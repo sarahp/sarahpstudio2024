@@ -63,7 +63,7 @@ const IndexPage = () => {
 
               <p>My love of programming started with learning FrontEnd development. I've since
                 built sites for major national brands. Created membership databases, basic retail sites, and beyond.
-                Recently I've been digging into React and using it with the MetAPI to explore alternate ways of viewing
+                Personally, I've been digging into React and using it with the MetAPI to explore alternate ways of viewing
                 the collection online. Checkout my code walkthrough below to see <a
                   href="https://sarahpeony.com/" target="_blank" rel="noopener noreferrer">The Peony
                   Art Experience</a> and the <a href="https://metmuseum.github.io/" target="_blank"
