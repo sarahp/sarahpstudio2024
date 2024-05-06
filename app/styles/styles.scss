@@ -44,7 +44,7 @@ ul {
 
 // Header Styles
 
-@media only screen and (max-width: 700px) {
+@media screen and (max-width: 700px) {
   img.headshot {
     max-width: 300px;
   }
@@ -61,14 +61,14 @@ header {
   display: flex;
 }
 
-@media only screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
   .header-inner {
     display: none;
   }
 }
 
 
-@media only screen and (min-width: 800px) {
+@media screen and (min-width: 800px) {
   .header-inner {
     display: flex;
     align-items: flex-end;
@@ -100,13 +100,13 @@ header {
   }
 }
 
-@media only screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
 .tagline {
   display: none;
 }
 
 }
-@media only screen and (min-width 1201px) {
+@media screen and (min-width 1201px) {
   .tagline {
     display: flex;
     align-items: flex-end;
@@ -119,13 +119,13 @@ header {
 }
 //Portfolio Styles
 
-@media only screen and (max-width: 700px) {
+@media screen and (max-width: 700px) {
   .fe-header {
     display: none;
   }
 }
 
-@media only screen and (min-width: 700px) {
+@media screen and (min-width: 700px) {
   .fe-header {
     background: url("../images/rectangle.png") no-repeat;
     height: 100px;
