@@ -39,7 +39,7 @@ const IndexPage = () => {
                   rel="noopener noreferrer">The Peony Art Experience</a></li>
                 <li className="nav-item"><a href="https://github.com/sarahp/peonythemet" target="_blank"
                   rel="noopener noreferrer">The Peony Art Experience Code</a></li>
-                <li className="nav-item"><a href="https://sarahpstudio.s3.amazonaws.com/SarahPeonyResume.pdf"
+                <li className="nav-item"><a href="https://sarahpstudio.s3.amazonaws.com/SarahPeonyResume2024.pdf"
                   target="_blank" rel="noopener noreferrer">Resumé PDF</a></li>
                 <li className="nav-item"><a href="https://github.com/sarahp" target="_blank"
                   rel="noopener noreferrer">Github</a></li>
@@ -117,7 +117,7 @@ const IndexPage = () => {
         <div className="footer-navigation">
           <div className="navigation">
             <ul className="nav ">
-              <li className="nav-item"><a href="https://sarahpstudio.s3.amazonaws.com/SarahPeonyResume.pdf" target="_blank"
+              <li className="nav-item"><a href="https://sarahpstudio.s3.amazonaws.com/SarahPeonyResume2024.pdf" target="_blank"
                 rel="noopener noreferrer">Resumé PDF</a></li>
               <li className="nav-item"><a href="https://github.com/sarahp" target="_blank"
                 rel="noopener noreferrer">Github</a></li>
